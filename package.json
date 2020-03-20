@@ -1,0 +1,32 @@
+{
+  "name": "course-jsbasic-project",
+  "version": "1.0.0",
+  "description": "Курсовой проект.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javascriptru/project-jsbasic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javascriptru/project-jsbasic/issues"
+  },
+  "homepage": "https://github.com/javascriptru/project-jsbasic#readme",
+  "dependencies": {
+    "@javascriptru/project-server": "github:javascriptru/project-server",
+    "@koa/cors": "^3.0.0",
+    "@koa/multer": "^2.0.2",
+    "@koa/router": "^8.0.8",
+    "gulp": "^4.0.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-static": "^5.0.0"
+  }
+}
